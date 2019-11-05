@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/fragsearch"
+    tools:context=".SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/SearchTitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#04B404"
+        android:text="@string/Search_fragment"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        tools:backgroundTint="#04B404" />
+
+    <Spinner
+        android:id="@+id/Sp_City"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@android:drawable/btn_dropdown"
+
+        android:gravity="center_horizontal"
+        android:spinnerMode="dialog" />
+
+    <Spinner
+        android:id="@+id/Sp_State"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:background="@android:drawable/btn_dropdown"
+
+        android:gravity="center_horizontal"
+        android:prompt="@string/SearchbyState"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:id="@+id/GoSearchBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:allowUndo="false"
+        android:background="#04B404"
+        android:elevation="24dp"
+        android:text="@string/Search" />
+
+</FrameLayout>

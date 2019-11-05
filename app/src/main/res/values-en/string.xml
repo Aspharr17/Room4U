@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Room4U</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="SignIn">Sign In</string>
+    <string name="Enter">Log In</string>
+    <string name="SinRegistro">Not Registered?</string>
+    <string name="LogedIn">Already registered?</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Searchby">Search your University</string>
+    <string name="Search">Search</string>
+    <string name="Exit">Exit</string>
+    <string name="Back">Back</string>
+    <string name="Failed">incorrect username or password</string>
+    <string name="Registered">Completed registration</string>
+    <string name="RegisteredUser">User already registered</string>
+    <string name="Dontmactch">Paswords dont match</string>
+    <string name="EmptyData">Data Missed</string>
+    <string name="SearchbyCity">Search by city</string>
+    <string name="SearchbyState">Search by State</string>
+    <string name="SearchbyCountry">Search by Country</string>
+    <string name="Selectfirst">Select State </string>
+    <string name="SelectEstatePost">Select State</string>
+    <string name="SelectUni">Select University</string>
+    <string name="SelectCityFirst">Select City First</string>
+    <string name="title_activity_main_menu">Search</string>
+    <string name="posting">New Post</string>
+    <string name="post">Post</string>
+    <string name="without_post">without published ads</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="delete">Delete</string>
+    <string name="Shared">Shared</string>
+    <string name="Edit">Edit</string>
+    <string name="newSearch">New Search</string>
+    <string name="share">Share</string>
+    <string name="terminos">terms and conditions</string>
+    <string name="acepto">I accept the </string>
+
+
+
+    <string name="name">Name</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Search_fragment">Search</string>
+    <string name="Saved_fragment">Saved Ads</string>
+    <string name="Posted_fragment">My Ads</string>
+    <string name="Profile_fragment">My Profile</string>
+    <string name="LogOut">Log Out</string>
+
+    <string name="Title">Title</string>
+    <string name="Price">Price</string>
+    <string name="Description">Description</string>
+    <string name="Estate">Estate</string>
+    <string name="City">City</string>
+    <string name="Number">Phone Number</string>
+
+    <string name="AddContact">Add Contact</string>
+    <string name="Contactos">Contacts</string>
+    <string name="NoContacts">No contacts, go to my profile and add one</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Sharewith">Share with</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Sharedwith">Shared with </string>
+    <string name="WithoutContacts">No contacts</string>
+    <string name="Add">Add</string>
+    <string name="Done">Done</string>
+    <string name="DeletTo">Delet to: </string>
+
+    <string name="ChangeLang">Change Language</string>
+    <string name="ChooseLang">Choose Language</string>
+
+
+
+
+    <string name="texto"> Simplified Privacy Notice of the Room4U application\n
+\nThe company AtheneaTech is responsible for the treatment of the personal data you provide us.
+
+Your personal data will be used to maintain control of the entries and exits of users within the Room4U application and also to maintain safe and reliable sources within it.
+
+It is reported that you will not make data transfers without your consent, each and every one of the data will be stored safely within our databases.
+</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

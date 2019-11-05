@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "1033306638385",
+    "firebase_url": "https://room4u-fd601.firebaseio.com",
+    "project_id": "room4u-fd601",
+    "storage_bucket": "room4u-fd601.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033306638385:android:7e1d4ffd5669c7f6",
+        "android_client_info": {
+          "package_name": "ateneatech.room4u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033306638385-lgk534tgasi8ssauiqks2m9bo70p24v3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ateneatech.room4u",
+            "certificate_hash": "36cf5276dfd4e55b942720e867a28720b3d0142e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgVu9zkDT9VsjOV5snGmKoY9qjETtasbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033306638385-q50pdlu6qma8a03f6jnslc6l6lovj3pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

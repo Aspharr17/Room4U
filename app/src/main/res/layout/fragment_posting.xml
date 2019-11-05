@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".PostingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/posting"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/Titletxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Title" />
+
+    <EditText
+        android:id="@+id/setTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:drawable/editbox_background_normal"
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/PriceTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Price" />
+
+    <EditText
+        android:id="@+id/setPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/DescripcionTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Description" />
+
+    <EditText
+        android:id="@+id/setDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/TelTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Number" />
+
+    <EditText
+        android:id="@+id/setNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/EstatePostSp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dialog"
+        android:background="@android:drawable/btn_dropdown"
+        android:foregroundGravity="center"
+        android:gravity="center_horizontal|center" />
+
+    <Spinner
+        android:id="@+id/CityPostSp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:gravity="center"
+        android:spinnerMode="dialog" />
+
+    <Spinner
+        android:id="@+id/UniPostSp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:gravity="center"
+        android:spinnerMode="dialog" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+
+
+
+        <Button
+            android:id="@+id/Postbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/post"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            />/
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:singleLine="false"
+    android:ellipsize="marquee"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fraglist"
+
+    android:background="@drawable/background2"
+    tools:context=".AllPostsFragment">
+
+
+
+    <Spinner
+        android:id="@+id/Sp_un"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:background="@android:drawable/btn_dropdown"
+        android:gravity="top|center"
+        android:singleLine="false"
+
+
+        android:spinnerMode="dialog"
+        android:textAlignment="inherit" />
+
+    <ListView
+        android:id="@+id/lvAnuncios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="0dp">
+
+
+    </ListView>
+
+
+
+        <Button
+            android:id="@+id/newSearch"
+            android:layout_width="411dp"
+            android:layout_height="38dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="0dp"
+            android:background="#04B404"
+            android:text="@string/newSearch"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+
+
+
+</FrameLayout>

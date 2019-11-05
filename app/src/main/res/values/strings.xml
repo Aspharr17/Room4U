@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Room4U</string>
+    <string name="Email">Correo</string>
+    <string name="Password">Contraseña</string>
+    <string name="ConfirmPassword">Confirmar Contraseña</string>
+    <string name="SignIn">Registrarse</string>
+    <string name="Enter">Ingresar</string>
+    <string name="SinRegistro">Aun sin registrarse?</string>
+    <string name="LogedIn">Ya estas registrado?</string>
+    <string name="Welcome">Bienvenido</string>
+    <string name="Searchby">Busca tu Universidad</string>
+    <string name="Search">Buscar</string>
+    <string name="Exit">Salir</string>
+    <string name="Back">Regresar</string>
+    <string name="Failed">Usuario o contraseña incorrecta</string>
+    <string name="Registered">Registro Completado</string>
+    <string name="RegisteredUser">Usuario ya Registrado</string>
+    <string name="EmptyData">Faltan Datos</string>
+    <string name="Dontmactch">Contraseñas no coinciden</string>
+    <string name="SearchbyCity">Busqueda por ciudad</string>
+    <string name="SearchbyState">Busqueda por Estado</string>
+    <string name="SearchbyCountry">Busqueda por Pais</string>
+    <string name="Selectfirst">Selecciona un estado primero</string>
+    <string name="SelectEstatePost">Selecciona un estado</string>
+    <string name="SelectUni">Selecciona la Universidad</string>
+    <string name="SelectCityFirst">Selecciona una ciudad primero</string>
+    <string name="without_post">Sin anuncios publicados</string>
+    <string name="posting">Nuevo Anuncio</string>
+    <string name="post">Publicar</string>
+    <string name="name">Nombre</string>
+    <string name="save">Guardar</string>
+    <string name="saved">Guardado</string>
+    <string name="Shared">Compartido</string>
+    <string name="delete">Eliminar</string>
+    <string name="Edit">Editar</string>
+    <string name="newSearch">Nueva Busqueda</string>
+    <string name="share">Compartir</string>
+    <string name="terminos">términos y condiciones</string>
+    <string name="acepto">Acepto los </string>
+
+
+    <string name="title_activity_main_menu">Busqueda</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="Search_fragment">Busqueda</string>
+    <string name="Saved_fragment">Anuncios Guardados</string>
+    <string name="Posted_fragment">Mis Anuncios</string>
+    <string name="Profile_fragment">Mi Perfil</string>
+    <string name="LogOut">Cerrar Sesion</string>
+
+    <string name="Title">Titulo</string>
+    <string name="Price">Precio</string>
+    <string name="Description">Descripcion</string>
+    <string name="Estate">Estado</string>
+    <string name="City">Ciudad</string>
+    <string name="Number">Telefono</string>
+
+    <string name="AddContact">Nuevo Contacto</string>
+    <string name="Contactos">Contactos</string>
+    <string name="NoContacts">Sin contactos, vaya a mi perfil y agregue uno</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="Sharewith">Compartir con</string>
+    <string name="Confirm">Confirmar</string>
+    <string name="Sharedwith">Compartido con </string>
+    <string name="WithoutContacts">Sin contactos</string>
+    <string name="Add">Agregar</string>
+    <string name="Done">Listo</string>
+    <string name="DeletTo">Eliminar a: </string>
+
+    <string name="ChangeLang">Cambiar Idioma</string>
+    <string name="ChooseLang">Selecciona Idioma</string>
+
+    <string name="texto">Aviso de Privacidad Simplificado de la aplicación Room4U\n
+\nLa empresa AtheneaTech es la responsable del tratamiento de los datos personales que nos proporcione.
+
+Sus datos personales serán utilizados para mantener el control de las entradas y salidas de usuarios dentro de la aplicación Room4U y también para mantener fuentes seguras y confiables dentro de esta misma.
+
+Se informa que no realizarán transferencias de datos sin su consentimiento, todos y cada uno de los datos serán guardados de manera segura dentro de nuestras bases de datos.
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
